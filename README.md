@@ -48,30 +48,3 @@
 6. 约定 model.js 为单文件 model，解决只有一个 model 时不需要建 models 目录的问题，有 model.js 则不去找 models/**/*.js
 7. maybe: 支持合并 model 和 component 的请求，避免文件过于细碎
 ### 快速开始
-
-克隆项目文件:
-
-## Usage
-
-```bash
-$ git clone https://github.com/xiaohuoni/dva-umi.git
-$ cd dva-umi
-$ npm install
-$ npm start         # visit http://localhost:8000
-```
-
-Or you can use the command tool: [oni-cli](https://github.com/xiaohuoni/oni-cli)
-
-```bash
-$ npm install oni-cli -g
-$ oni new myapp
-$ cd myapp
-$ npm install
-$ npm start         # visit http://localhost:8000
-```
-
-Build.
-
-```bash
-$ npm run build
-```
